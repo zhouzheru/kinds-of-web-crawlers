@@ -1,3 +1,3 @@
 爬取 电影天堂 最新电影页面 电影的 名称，演员，导演，上映时间等 相关信息，下载海报到本地，数据存入MONGODB。
 
-最终成果![result](dytt/dytt/imglist/1556175671(1).jpg)
+最终成果![image](https://raw.githubusercontent.com/zhouzheru/kinds-of-web-crawlers/master/dytt/dytt/imglist/1556175671(1).jpg)
