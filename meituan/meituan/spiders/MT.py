@@ -67,7 +67,7 @@ class MtSpider(scrapy.Spider):
         city = item["city"]
 
         base_url = response.url+"api/poi/getPoiList?cityName="+city+"&"
-        self.page =1
+        self.page =1 #这里先传入page=1，访问url，可以得出具体条目，然后在访问剩余的page=2-N
 
         url = base_url+urlencode(self.before_request())
 
