@@ -7,7 +7,6 @@ from pymongo import MongoClient
 class Wx_News(object):
     def __init__(self):
         url = "https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&__biz=MTI0MDU3NDYwMQ==&f=json&offset={}&count=10&is_ok=1&scene=126&uin=777&key=777&pass_ticket=NLZEohgmMNUf5MC6%2BYVblzVuF9zXMDlSU4hpU6ZN7e0R055zQr76ufP82KMzsokB&wxtoken=&appmsg_token=1007_9jnhmoKmGgyansWNXY_pPlCUZZPHX0m5h4bXaA~~&x5=0&f=json".format(offset)
-        url_sample=""
         self.url = url
         self.session = requests.Session()
         cookies = """
