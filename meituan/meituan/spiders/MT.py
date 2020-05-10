@@ -115,21 +115,3 @@ class MtSpider(scrapy.Spider):
             print(item)
             time.sleep(random.random()*3)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#
